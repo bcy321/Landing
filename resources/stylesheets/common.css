@@ -1,0 +1,61 @@
+@import "part.background.css";
+@import "part.header.css";
+@import "part.main.css";
+@import "part.main.intro.css";
+@import "part.main.projects.css";
+@import "part.main.skills.css";
+@import "part.progress.css";
+@import "part.main.certificate.css";
+
+@font-face {
+    font-family: abster;
+    src: url(/resources/font/abster-webfont.woff) format('woff');
+}
+
+
+html {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+ul {
+    list-style-type: none;
+    margin-block-start: 0;
+    margin-block-end: 0;
+    margin-inline-start: 0;
+    margin-inline-end: 0;
+    padding-inline-start: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-size: inherit;
+    font-weight: inherit;
+    margin-block-start: 0;
+    margin-block-end: 0;
+    margin-inline-start: 0;
+    margin-inline-end: 0;
+}
+
+body {
+    background-color: #f0f5fa;
+    color: #00050a;
+    font-size: 1rem;
+    margin: 0;
+    overflow: hidden;
+}
+
+body.preload, body.preload * {
+    transition: none !important;
+}
+
+
+
+
+
+
+
+
+
+
+

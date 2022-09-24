@@ -1,0 +1,80 @@
+body > main.main > section.main-item.projects > div.main-item-content > div {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 1.5rem;
+    position: relative;
+}
+
+body > main.main > section.main-item.projects > div.main-item-content > div > div {
+    width: 100%;
+    background-color: #ffffffa0;
+    backdrop-filter: blur(1rem);
+    border-radius: 0.25rem;
+    box-sizing: border-box;
+    box-shadow: 0 0 1rem 0.0625rem #50505033;
+    padding: 1.75rem 2rem;
+    position: relative;
+}
+
+body > main.main > section.main-item.projects > div.main-item-content > div > div > *:not(:last-child) {
+    margin-bottom: 1.5rem;
+}
+
+body > main.main > section.main-item.projects > div.main-item-content > div > div > h2 {
+    color: #80858a;
+    font-size: 1.25rem;
+}
+
+body > main.main > section.main-item.projects > div.main-item-content > div > div > div {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+body > main.main > section.main-item.projects > div.main-item-content > div > div > div > a {
+    background-position: 1rem center;
+    background-repeat: no-repeat;
+    background-size: 1.25rem;
+    border-radius: 0.125rem;
+    color: #f0f5fa;
+    padding: 0.5rem 1rem 0.5rem 2.75rem;
+    text-decoration: none;
+}
+
+body > main.main > section.main-item.projects > div.main-item-content > div > div > div > a:nth-child(1) {
+    background-color: #3cb371;
+    background-image: url("../images/project.home.png");
+}
+
+body > main.main > section.main-item.projects > div.main-item-content > div > div > div > a:nth-child(2) {
+    background-color: #1e90ff;
+    background-image: url("../images/project.github.png");
+}
+
+body > main.main > section.main-item.projects > div.main-item-content > div > div > div > a:not(:last-child) {
+    margin-right: 1rem;
+}
+
+@media screen and (max-width: 62.5rem) {
+    /* 브라우저의 너비가 62.5rem 이하 일 때 */
+    body > main.main > section.main-item.projects > div.main-item-content > div {
+        grid-template-columns: 1fr;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

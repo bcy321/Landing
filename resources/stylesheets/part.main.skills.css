@@ -1,0 +1,58 @@
+body > main.main > section.main-item.skills > div.main-item-content > table > tbody > tr > td > div {
+    width: 50rem;
+    height: 0.75rem;
+    background-color: #c0c5ca;
+    border-radius: 999rem;
+    overflow: hidden;
+    position: relative;
+    padding: 0.25rem;
+}
+
+
+body > main.main > section.main-item.skills > div.main-item-content > table > tbody > tr > td > div > div {
+    top: 0;
+    left: 0;
+    height: 100%;
+    opacity: 0.5;
+    position: absolute;
+}
+
+body > main.main > section.main-item.skills > div.main-item-content > table > tbody > tr > td > div > div.beginner {
+    width: 10%;
+    background-color: #cd5c5c;
+}
+
+body > main.main > section.main-item.skills > div.main-item-content > table > tbody > tr > td > div > div.intermediate {
+    width: 75%;
+    background-color: #ffa500;
+}
+
+body > main.main > section.main-item.skills > div.main-item-content > table > tbody > tr > td > div > div.skilled {
+    width: 100%;
+    background-color: #3cb371;
+}
+
+body > main.main > section.main-item.skills > div.main-item-content > table > tbody > tr > th {
+    color: #80858a;
+    cursor: default;
+    font: inherit;
+    padding: 1.5rem;
+    text-align: right;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

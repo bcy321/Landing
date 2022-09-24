@@ -1,0 +1,64 @@
+body > main.main {
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    position: absolute;
+    z-index: 1;
+}
+
+body > main.main > section.main-item {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    transition-duration: 1000ms;
+    transition-timing-function: cubic-bezier(0.770, 0.000, 0.175, 1.000);
+}
+
+body > main.main > section.main-item > div.main-item-content {
+    top: 8rem;
+    left: 4rem;
+    width: calc(100% - 8rem);
+    max-height: calc(100% - 16rem);
+    overflow-x: hidden;
+    overflow-y: auto;
+    position: relative;
+}
+
+body > main.main > section.main-item > div.main-item-content > * {
+    left: 2rem;
+    opacity: 0;
+    position: relative;
+    transition-delay: 300ms;
+    transition-duration: 750ms;
+    transition-timing-function: ease-in-out;
+}
+
+body > main.main > section.main-item > div.main-item-content > *.visible {
+    left: 0;
+    opacity: 1;
+}
+
+body > main.main > section.main-item > div.main-item-content > h1 {
+    color: #70757a;
+    font-family: abster;
+    font-size: 3rem;
+    font-weight: 300;
+    margin-bottom: 2rem;
+
+   
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

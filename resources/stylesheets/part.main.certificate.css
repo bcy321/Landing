@@ -1,0 +1,83 @@
+body > main.main > section.main-item.certificate > div.main-item-content > div {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 1.2rem;
+    position: relative;
+}
+
+body > main.main > section.main-item.certificate > div.main-item-content > div > div {
+    width: 100%;
+    background-color: #ffffffa0;
+    backdrop-filter: blur(1rem);
+    border-radius: 0.25rem;
+    box-sizing: border-box;
+    box-shadow: 0 0 1rem 0.0625rem #50505033;
+    padding: 1.25rem;
+    position: relative;
+}
+
+body > main.main > section.main-item.certificate > div.main-item-content > div > div > *:not(:last-child) {
+    margin-bottom: 1.5rem;
+}
+
+body > main.main > section.main-item.certificate > div.main-item-content > div > div > h2 {
+    color: #80858a;
+    font-size: 1.25rem;
+}
+
+body > main.main > section.main-item.certificate > div.main-item-content > div > div > div {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+body > main.main > section.main-item.certificate > div.main-item-content > div > div > div > a {
+    background-position: 1rem center;
+    background-repeat: no-repeat;
+    background-size: 1.25rem;
+    background-color: #3ca173;
+    background-image: url("../images/project.home.png");
+    border-radius: 0.125rem;
+    color: #f0f5fa;
+    padding: 0.5rem 1rem 0.5rem 2.75rem;
+    text-decoration: none;
+    -webkit-box-shadow: 0 0.1875rem #3caa73a0; 
+    -moz-box-shadow:  0 0.1875rem #3caa73a0; 
+    box-shadow:  0 0.1875rem #3caa73a0;
+    transition: all 0.1s linear 0s; 
+    top: 0px;
+}
+
+body > main.main > section.main-item.certificate > div.main-item-content > div > div > div > a:hover{
+    top: 0.1875rem;
+    background-color:#2e458b;
+    -webkit-box-shadow: none; 
+    -moz-box-shadow: none; 
+    box-shadow: none;
+}
+
+
+
+@media screen and (max-width: 62.5rem) {
+    /* 브라우저의 너비가 62.5rem 이하 일 때 */
+    body > main.main > section.main-item.certificate > div.main-item-content > div {
+        grid-template-columns: 1fr;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url("/resources/images/start.background.jpg");
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+body > div.wrap{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: center;
+}
+
+body > div >h1 > span.material-icons{
+    font-size: 10rem;
+}
+body > div > p.lg-text{
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+#dynamic{
+    position: relative;
+    display: inline-block;
+}
+#dynamic::after{
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    right: -10px;
+    width: 4px;
+    height: 100%;
+    background-color: #ffffff;
+}
+
+#dynamic.active::after{
+    display: none;
+}
+
+body > div > p.sm-text{
+    margin-top: 2rem;
+    font-size: 1.2rem;
+}
+
+body > div > p.sm-text > a{
+    color: #ffffff;
+    text-decoration: none;
+    background: none;
+    border: 2px solid #8fbc8f;
+    padding: 0.9375rem 1.25rem;
+    border-radius:  1.25rem;
+    margin-top: 1.875rem;
+    outline: none;
+    cursor: pointer;
+    transition: all .4s;
+}
+
+body > div > p.sm-text > a:hover{
+    background-color: #ffa500;
+}
+
+
+

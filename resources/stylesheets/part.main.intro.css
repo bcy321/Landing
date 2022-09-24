@@ -1,0 +1,58 @@
+body > main.main > section.main-item.intro > div.main-item-content > div > table > tbody > tr:nth-child(1) > td:nth-child(1) > div {
+    width: 10rem;
+    height: 10rem;
+    background-color: #c0c5ca;
+    background-image: url("../images/profile.male.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 50%;
+    margin-right: 2rem;
+}
+body > main.main > section.main-item.intro > div.main-item-content > div{
+    align-items: flex-start;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+body > main.main > section.main-item.intro > div.main-item-content > div >  table > tbody > tr > th {
+    color: #80858a;
+    cursor: default;
+    font: inherit;
+    padding-right: 1.25rem;
+    text-align: right;
+}
+body > main.main > section.main-item.intro > div.main-item-content > div >  table:nth-child(1){
+    margin-right: 15rem;
+    
+}
+body > main.main > section.main-item.intro > div.main-item-content > div >  table:nth-child(1) > tbody > tr:last-child > td:last-child {
+    color: crimson;
+    font-size: 0.8rem;
+    padding-top: 1rem;
+    text-align: center;
+}
+body > main.main > section.main-item.intro > div.main-item-content > div >  table:nth-child(2) > caption{
+    font-size: 2.2rem;
+    text-align: left;
+    margin-bottom: 1rem;
+}
+
+body > main.main > section.main-item.intro > div.main-item-content > div >  table:nth-child(2) > tbody > tr > th,
+body > main.main > section.main-item.intro > div.main-item-content > div >  table:nth-child(2) > tbody > tr > td,
+body > main.main > section.main-item.intro > div.main-item-content > div >  table:nth-child(2) > thead > tr > td{
+    border: 0.025rem solid #2e2e2e;
+    padding: 0.825rem;
+    text-align: center;
+}
+ body > main.main > section.main-item.intro > div.main-item-content > div >  table:nth-child(2) > thead > tr > th{
+    border-bottom: #80858a;
+    padding: 0.5rem
+} 
+
+body > main.main > section.main-item.intro > div.main-item-content>p{
+    margin-top: 4.5rem;
+    margin-left: 12.5rem;
+    color:green;
+}
